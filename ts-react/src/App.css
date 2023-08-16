@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Raleway:ital,wght@0,100;0,400;0,700;1,300&display=swap');
+
+* {
+  font-family: 'Neucha', cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+.App {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2f74c0;
+  font-family: 'Neucha', cursive;
+}
+
+.heading {
+  text-transform: uppercase;
+  font-size: 40px;
+  margin: 30px 0;
+  color: white;
+  z-index: 1;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  width: 90vw;
+  margin-top: 2rem;
+  gap:1rem;
+}
+.container > * {
+  flex: 1;
+}
+
+.yellow {
+  background-color: #ebc821;
+}
+
+.blue {
+  background-color: #41c2ba;
+}
+
+.red {
+  background-color: #eb6751;
+}
+
+.pad {
+  padding: 1rem;
+}
+
+.rad {
+  border-radius: 1rem;
+}
+
+@media (max-width: 800px) {
+  .heading {
+    margin: 15px 0;
+    font-size: 35px;
+  }
+  .container {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,77 @@
+.input {
+  display: flex;
+  width: 90%;
+  position: relative;
+  align-items: center;
+}
+
+.input__box {
+  flex: 1;
+  padding: 20px;
+  border-radius: 50px;
+  font-size: 25px;
+  border: none;
+  transition: 0.2s;
+  box-shadow: inset 0 0 5px black;
+}
+
+.input__box:focus {
+  box-shadow: 0 0 10px 999px rgba(0, 0, 0, 0.5);
+  outline: none;
+}
+
+.input__submit {
+  position: absolute;
+  right: 1rem;
+
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 100%;
+  border: none;
+  background-color: #2f74c0;
+  color: white;
+  font-size: 15px;
+  box-shadow: 0 0 10px black;
+}
+
+.todo-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.todo-view {
+  width: 100%;
+  transition: 0.2s;
+}
+
+.todo-view__div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.todo-view__icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.todo-view__icons button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.todo-view__icons > * > * {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.shadow{
+    box-shadow: 0 0 10px grey;
+}
