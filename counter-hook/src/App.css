@@ -1,0 +1,22 @@
+span{
+    font-size: 3rem;
+}
+button{
+    padding: 1rem;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div{
+    border: 1px solid grey;
+    padding: 1rem;
+}
+
+.red{
+    background-color: red;
+}
